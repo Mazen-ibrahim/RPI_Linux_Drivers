@@ -1,0 +1,1 @@
+cmd_/home/mazen/RPI_linux_drivers/Device_Dynamic/DeviceDynamic.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/mazen/RPI_linux_drivers/Device_Dynamic/DeviceDynamic.ko /home/mazen/RPI_linux_drivers/Device_Dynamic/DeviceDynamic.o /home/mazen/RPI_linux_drivers/Device_Dynamic/DeviceDynamic.mod.o;  true

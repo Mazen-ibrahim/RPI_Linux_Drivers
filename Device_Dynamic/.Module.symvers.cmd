@@ -1,0 +1,1 @@
+cmd_/home/mazen/RPI_linux_drivers/Device_Dynamic/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/mazen/RPI_linux_drivers/Device_Dynamic/Module.symvers -T /home/mazen/RPI_linux_drivers/Device_Dynamic/modules.order -i Module.symvers -e 

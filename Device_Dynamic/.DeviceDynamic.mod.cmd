@@ -1,0 +1,1 @@
+cmd_/home/mazen/RPI_linux_drivers/Device_Dynamic/DeviceDynamic.mod := printf '%s\n'   DeviceDynamic.o | awk '!x[$$0]++ { print("/home/mazen/RPI_linux_drivers/Device_Dynamic/"$$0) }' > /home/mazen/RPI_linux_drivers/Device_Dynamic/DeviceDynamic.mod
