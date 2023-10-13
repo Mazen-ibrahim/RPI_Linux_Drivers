@@ -1,1 +1,0 @@
-cmd_/home/mazen/RPI_linux_drivers/Device_Dynamic/modules.order := {   echo /home/mazen/RPI_linux_drivers/Device_Dynamic/DeviceDynamic.o; :; } > /home/mazen/RPI_linux_drivers/Device_Dynamic/modules.order
