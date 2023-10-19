@@ -3,7 +3,7 @@
 #include<linux/moduleparam.h>
 #include<linux/fs.h>  
 #include<linux/cdev.h>
-#include<gpio.h>
+#include<linux/gpio.h>
 
 #define Button_PIN   17
 #define LED_PIN      4
@@ -157,7 +157,7 @@ static int __init ModuleInit(void)
     }
     
     /* Request Pin 4 for RPI */
-    if( gpio_reguest(LED_PIN,"LED_PIN") )
+    if( gpio_request(LED_PIN,"LED_PIN") )
     {
        printk("Reguest GPIO LED Pin is Failed\n");
        goto DeviceErr;
@@ -173,7 +173,7 @@ static int __init ModuleInit(void)
 
 
        /* Request Pin 17 for RPI */
-    if( gpio_reguest(Button_PIN,"Button_PIN") )
+    if( gpio_request(Button_PIN,"Button_PIN") )
     {
        printk("Reguest GPIO Button Pin is Failed\n");
        goto LEDERR;

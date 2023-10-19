@@ -3,7 +3,8 @@
 #include<linux/moduleparam.h>
 #include<linux/fs.h>  
 #include<linux/cdev.h>
-#include<gpio.h>
+#include<linux/gpio.h>
+#include<linux/delay.h>
 
 
 /* Meta Information */
