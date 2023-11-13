@@ -1,0 +1,23 @@
+
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-6.2.0-26-generic/include/**",
+                "/usr/src/linux-headers-6.2.0-26-generic/arch/x86/include/**",
+                "/usr/src/linux-headers-6.2.0-26-generic/include/**",
+                "/usr/src/linux-headers-6.2.0-26-generic/arch/x86/include/**"
+            ],
+            "defines": [
+                "__KERNEL__"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
